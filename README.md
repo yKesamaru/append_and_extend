@@ -1,6 +1,6 @@
 # `append`と`extend`の違いを知らないと、思わぬバグを生むことになる
 
-![](assets/g4597.png)
+![](https://raw.githubusercontent.com/yKesamaru/append_and_extend/master/assets/g4597.png)
 
 Pythonにおける`append`と`extend`について、使い方を誤ると思わぬバグを生むことになります。この記事では`append`と`extend`の基本的な使い方と、面倒くさいことを考えずに済むように、ラッパー関数を作成し、最後に再利用可能なモジュール化を行います。
 
